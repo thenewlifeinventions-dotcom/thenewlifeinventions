@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tiles & Merchandise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Your Brand</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Premium Tiles & Merchandise Solutions</h1>
+  <p>Quality | Reliable Supply | Competitive Pricing</p>
+  <a href="#products" class="btn">View Products</a>
+</section>
+
+<section class="categories">
+  <h2>Our Product Range</h2>
+  <div class="grid">
+    <div class="card">Wall Tiles</div>
+    <div class="card">Floor Tiles</div>
+    <div class="card">Designer Tiles</div>
+    <div class="card">Bulk Supply</div>
+  </div>
+</section>
+
+<section id="products">
+  <h2>Featured Products</h2>
+  <div class="grid">
+    <div class="product">
+      <img src="https://via.placeholder.com/300">
+      <h3>Glossy Tile 600x600</h3>
+      <p>High finish premium tile</p>
+      <button onclick="enquire()">Enquire Now</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300">
+      <h3>Matte Floor Tile</h3>
+      <p>Durable and stylish</p>
+      <button onclick="enquire()">Enquire Now</button>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <h2>Why Choose Us</h2>
+  <ul>
+    <li>✔ Competitive Pricing</li>
+    <li>✔ Trusted Quality</li>
+    <li>✔ Fast Delivery</li>
+    <li>✔ Professional Service</li>
+  </ul>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    We are a trusted supplier of high-quality tiles and merchandise products based in Rajasthan.
+    We serve retailers, builders, and bulk buyers with reliable service and competitive pricing.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: +91 XXXXX XXXXX</p>
+  <p>Email: your@email.com</p>
+  <button onclick="whatsapp()">Chat on WhatsApp</button>
+</section>
+
+<footer>
+  <p>© 2026 Your Brand. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

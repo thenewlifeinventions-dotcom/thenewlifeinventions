@@ -1,0 +1,7 @@
+function enquire() {
+  alert("Please contact us on WhatsApp for best price!");
+}
+
+function whatsapp() {
+  window.open("https://wa.me/91XXXXXXXXXX", "_blank");
+}
